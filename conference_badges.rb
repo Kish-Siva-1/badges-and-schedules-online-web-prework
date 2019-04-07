@@ -24,11 +24,11 @@ def assign_rooms(speaker_list)
     #speaker_list[speaker] = room_no
     room2 = room_no + 1
     puts "Hello, #{speaker}!, You'll be assigned to room #{room2}!"
-    #arr[i] = room_no
-    #i += 1
+    arr[i] = room_no
+    i += 1
   end
   
-  #speaker_list
+  arr
 
 end
 
