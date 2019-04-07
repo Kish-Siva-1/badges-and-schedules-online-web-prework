@@ -41,7 +41,7 @@ def printer(speaker_list)
   
   loop do 
     a1,a2 = arr1.next, arr2.next
-    puts "#{a1} #{a2}"
+    puts "#{a1}"
   end 
   
 end
