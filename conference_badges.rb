@@ -34,10 +34,10 @@ end
 
 #https://stackoverflow.com/questions/3580049/whats-the-ruby-way-to-iterate-over-two-arrays-at-once
 
-def printer 
+def printer (speaker_list)
   
-  arr1 = batch_badge_creator.each
-  arr2 = assign_rooms.each
+  arr1 = batch_badge_creator(speaker_list).each
+  arr2 = assign_rooms(speaker_list).each
   
   loop do 
     a1,a2 = arr1.next, arr2.next
