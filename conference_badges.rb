@@ -20,7 +20,7 @@ def assign_rooms(speaker_list)
   arr=[]
   i=0
   
-  speaker_list.each_with_index |speaker, room_no|
+  speaker_list.each_with_index |speaker room_no|
     speaker_list[speaker] = room_no
     puts "Hello, #{speaker}!, You'll be assigned to room #{room_no}!"
     #arr[i] = room_no
