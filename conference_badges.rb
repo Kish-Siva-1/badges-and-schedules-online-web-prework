@@ -23,7 +23,7 @@ def assign_rooms(speaker_list)
   speaker_list.each_with_index do |speaker, room_no|
     #speaker_list[speaker] = room_no
     room2 = room_no + 1
-    puts "Hello, #{speaker}!, You'll be assigned to room #{room2}!"
+    puts "Hello, #{speaker}! You'll be assigned to room #{room2}!"
     arr[i] = "Hello, #{speaker}!, You'll be assigned to room #{room2}!"
     i += 1
   end
