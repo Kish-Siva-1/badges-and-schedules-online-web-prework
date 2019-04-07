@@ -7,7 +7,7 @@ def batch_badge_creator(speaker_list)
     i=0
     
     speaker_list.each do |greeting|
-      arr(i)=badge_maker(greeting)
+      arr[i]=badge_maker(greeting)
       i += 1
     end
     
